@@ -24,7 +24,7 @@ h3{
 }
 
 header{
-    padding:1.5rem;
+    padding:1.5rem 0;
     background-color: rgb(49, 76, 116);
 }
 
@@ -87,19 +87,6 @@ nav{
         max-width: 30rem;
     }
 
-    /* .general-topic{
-        display:flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    .general-topic img{
-        max-width:48%;
-    }
-
-    .general-topic>div{
-        flex:0 0 48%;
-    } */
 }
 
 @media screen and (min-width:968px) {
