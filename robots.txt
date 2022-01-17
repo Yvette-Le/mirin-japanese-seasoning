@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://mirin-japanese-seasoning.netlify.app/sitemap.xml
