@@ -99,6 +99,33 @@ nav{
 }
 
 
+footer{
+    background-color: rgb(49, 76, 116);
+    color:white;
+    padding:1rem 0;
+}
+
+footer>div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    display:flex;
+}
+
+footer li{
+    margin:0 1rem;
+}
+
+footer a{
+    color:white;
+    padding:0.5rem;
+    text-decoration: none;
+}
+
 @media screen and (min-width:768px){
 
     .menu-btn{
@@ -137,6 +164,10 @@ nav{
     h2,
     h3{
         padding-top:0;
+    }
+
+    nav{
+        padding:0;
     }
 
     .general-topic{
