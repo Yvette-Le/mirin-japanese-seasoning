@@ -9,18 +9,19 @@ h3{
     text-align:center;
 }
 
-h1 a{
+header>div>a{
+    font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     text-decoration: none;
     color:white;
 }
 
-h2{
+h1{
     font-size: 1.953rem;
     padding:1.5rem 0;
 }
 
-h3{
+h2{
     font-size: 1.563rem;
     padding:1.5rem 0;
 }
@@ -108,24 +109,15 @@ footer{
     padding:1rem 0;
 }
 
-footer>div{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 footer ul{
     list-style: none;
-    display:flex;
-}
-
-footer li{
-    margin:0 1rem;
+    padding-left:0;
 }
 
 footer a{
     color:white;
     padding:0.5rem;
+    margin:0.5rem 0;
     text-decoration: none;
 }
 
@@ -156,6 +148,21 @@ footer a{
         max-width: 30rem;
     }
 
+    footer>div{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer ul{
+        display:flex;
+    }
+
+    footer li{
+        margin:0 1rem;
+    }
+    
+
 }
 
 @media screen and (min-width:968px) {
@@ -164,8 +171,8 @@ footer a{
         max-width:1100px;
     }
     
-    h2,
-    h3{
+    h1,
+    h2{
         padding-top:0;
     }
 
