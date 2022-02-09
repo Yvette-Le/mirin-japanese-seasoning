@@ -1,0 +1,53 @@
+    /* TEAM */
+
+                                
+    Your title: Yvette L, Web Designer
+
+                                
+    Site:https://mirin-japanese-seasoning.netlify.app/ 
+
+
+    Email: mirinjapaneseasoning@gmail.com
+
+                                
+    Location: Northern Alberta, Canada
+
+                             
+
+                 
+                        [...]
+						
+
+
+    							
+    /* THANKS */
+
+    							
+    Name: name or url
+
+    						
+
+                 
+                        [...]
+                        
+
+
+                                
+    /* SITE */
+
+                                
+    Last update: 2022/02/09
+
+                                
+    Standards: HTML5, CSS3
+
+                                
+    Components: Javascript
+
+                                
+    Software: Netlify, Visual Studio Code, Iubenda, Adobe Photoshop
+       
+                            
+
+
+                    
