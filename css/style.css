@@ -47,6 +47,10 @@ header>div{
     align-items: center;
 }
 
+header>div img{
+    width:4.5rem;
+}
+
 .menu-btn{
     background:none;
     border: none;
@@ -138,6 +142,9 @@ footer a:hover,
 footer a:active{
     font-style: italic;
     color:rgb(230, 212, 116);
+}
+.ad{
+    display:block !important;
 }
 
 @media screen and (min-width:768px){
