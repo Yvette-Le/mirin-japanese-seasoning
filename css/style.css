@@ -107,8 +107,17 @@ nav{
     margin:0 auto;
 }
 
+.leaderboard,
+.square-banner{
+    margin:3rem auto;
+}
+
+.square-banner{
+    margin:1.5rem auto;
+}
+
 aside{
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(49, 76, 116);
     margin:1rem 2rem;
     padding:1rem;
     text-align: center;
@@ -143,9 +152,6 @@ footer a:active{
     font-style: italic;
     color:rgb(230, 212, 116);
 }
-.ad{
-    display:block !important;
-}
 
 @media screen and (min-width:768px){
 
@@ -172,6 +178,12 @@ footer a:active{
 
     .general-topic img{
         max-width: 30rem;
+    }
+
+    .about-author{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     aside{
@@ -226,7 +238,7 @@ footer a:active{
     }
 
     .general-topic:nth-of-type(2),
-    .general-topic:last-of-type{
+    .general-topic:nth-of-type(4){
         flex-direction: row-reverse;
     }
 }
