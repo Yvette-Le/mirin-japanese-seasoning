@@ -100,11 +100,20 @@ nav{
 }
 
 .general-topic{
-    padding:3rem 0;
+    padding:3rem 0 1.5rem 0;
 }
 
 .general-topic img{
     margin:0 auto;
+}
+
+.easy-recipes img{
+    margin:1.5rem auto;
+    max-width:30rem;
+}
+
+.sauce-recipes>div{
+    margin-bottom:1.5rem;
 }
 
 .leaderboard,
@@ -188,7 +197,7 @@ footer a:active{
 
     aside{
         width:45%;
-        margin:2rem auto;
+        margin:2rem 0;
     }
 
     footer>div{
@@ -240,6 +249,19 @@ footer a:active{
     .general-topic:nth-of-type(2),
     .general-topic:nth-of-type(4){
         flex-direction: row-reverse;
+    }
+
+    .sauce-recipes{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .sauce-recipes>div{
+        flex-basis:48%;
+    }
+
+    .sauce-recipes p{
+        padding:0.5rem 0;
     }
 }
 
