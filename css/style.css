@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -9,6 +9,13 @@ h4{
     font-family: 'Playfair Display', serif;
     text-align:center;
 }
+
+.general-topic h1,
+.general-topic h2,
+.general-topic h3{
+    text-align: left;
+}
+
 
 header>div>a{
     font-family: 'Playfair Display', serif;
@@ -42,7 +49,7 @@ a{
 
 header{
     padding:1.5rem 0;
-    background-color: rgb(49, 76, 116);
+    background-color:#1d3557;
 }
 
 header>div{
@@ -63,7 +70,7 @@ header>div img{
 }
 
 nav{
-    background-color: rgb(49, 76, 116);
+    background-color:#1d3557;
     padding:1.5rem;
     flex: 0 0 100%;
     display: none;
@@ -95,7 +102,8 @@ nav{
 }
 
 .banner{
-    background: linear-gradient(rgba(99, 99, 99, 0.6), rgba(99, 99, 99, 0.6)), url(../img/bento-set.webp);
+    background: linear-gradient(rgba(66, 66, 66, 0.3), rgba(99, 99, 99, 0.6)), url(../img/mirin-banner.webp);
+    /* background-image: url(../img/mirin-banner.webp); */
     background-repeat: no-repeat;
     background-size: cover;
     padding:9rem 0;
@@ -109,35 +117,65 @@ nav{
 
 .general-topic img{
     margin:0 auto;
+    border-radius: 5px;
+}
+
+.how-its-made,
+.whats-new{
+    background-color: #1d3557;
+    color:white;
+}
+
+.storing,
+.about-author{
+    background-color:#e9ecef;
+}
+
+.types,
+.storing,
+.cooking{
+    padding-bottom:3rem;
+}
+
+.whats-new,
+.about-author,
+.easy-recipes{
+    padding:3rem 0;
 }
 
 .whats-new-img img,
 .whats-new-content img{
     display: block;
     margin:1rem auto;
+    border-radius:5px;
 }
 
 .whats-new-content p{
     margin:1rem auto;
 }
 
+.whats-new-content a{
+    color:white;
+    font-style: italic;
+}
+
 .whats-new-content a:hover,
 .whats-new-content a:active{
-    color:rgb(49, 76, 116);
+    color:rgb(230, 212, 116);
 }
 
 .easy-recipes img{
     margin:1.5rem auto;
     max-width:30rem;
+    border-radius:5px;
 }
 
 .sauce-recipes>div{
     margin-bottom:1.5rem;
 }
 
-.leaderboard,
-.square-banner{
-    margin:3rem auto;
+.leaderboard{
+    margin:3rem auto 0 auto;
 }
 
 .square-banner{
@@ -145,7 +183,7 @@ nav{
 }
 
 aside{
-    background-color: rgb(49, 76, 116);
+    background-color:#1d3557;
     margin:1rem 2rem;
     padding:1rem;
     text-align: center;
@@ -155,7 +193,7 @@ aside{
 
 
 footer{
-    background-color: rgb(49, 76, 116);
+    background-color:#1d3557;
     font-size: 0.85rem;
     color:white;
     padding:1rem 0;
@@ -213,7 +251,7 @@ footer a:active{
         max-width:30rem;
     }
 
-    .about-author{
+    .about-author>div{
         display:flex;
         justify-content: space-between;
         align-items: center;
@@ -256,23 +294,27 @@ footer a:active{
         padding:0;
     }
 
-    .general-topic{
+    .general-topic>div{
         display:flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .general-topic img{
         max-width:48%;
     }
 
-    .general-topic>div{
+    .general-topic>div>div{
         flex:0 0 48%;
     }
 
-    .general-topic:nth-of-type(2),
-    .general-topic:nth-of-type(4){
+    .general-topic:nth-of-type(2)>div,
+    .general-topic:nth-of-type(3)>div{
         flex-direction: row-reverse;
+    }
+
+    .types h2{
+        margin-top:3rem;
     }
 
     .whats-new{
